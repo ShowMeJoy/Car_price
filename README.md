@@ -1,19 +1,15 @@
 # Car price
 ---
 # Задача:
-Спрогнозировать цену такси на следующий час. RMSE <= 48
+Построить модель для определения стоимости автомобиля. Для заказчика важны скорость обучения, качество и скорость предсказания.
 ---
 # Библиотеки:
 * Random Forest Regressor
-* Linear Regression
+* Decision Tree Regressor
 * Cat Boost Regressor
-* Light GBM
+* Light GBM Regressor
 ---
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Row 1    | Cell 2   | Cell 3   |
-| Row 2    | Cell 5   | Cell 6   |
-| Row 3    | Cell 8   | Cell 9   |
+# Результаты:
 
 |	                     | fit time|predict time|	RMSE|
 |----------------------|------|-----|------|
